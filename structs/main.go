@@ -44,7 +44,7 @@ func main() {
   //change name with function
   //This wouldnt work it would still "bob"
   //Because of passing values as copies not references i.e need pointer
-  wrongChangeName(secondPerson, "Julie") //different memory address to the first secondPerson line 7
+  wrongChangeName(secondPerson, "Julie") //different memory address to the first secondPerson line 40
   fmt.Println(secondPerson)
 
   //This function used Pointer receiver (p Person)
