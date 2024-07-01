@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-  myTicket := imports.Ticket{
+  myTicket := event.Ticket{
     ID: 23,
     Event: "Pestapora",
   }
